@@ -1,13 +1,13 @@
 // Two types of scope : Global and Local
 // Variables defined inside a function are in local scope,
 // while variables defined outside of a function are in the global scope. Each function when invoked creates a new scope.
-var s = "overpopulation";
-var ar = [];
-ar = s.split("");
-// alert(ar);
-for (var i = 0; i < ar.length; i++) {
-    console.log(ar[i]);
-}
+// var s = "overpopulation";
+// var ar = [];
+// ar = s.split("");
+// // alert(ar);
+// for (var i = 0; i < ar.length; i++) {
+//     console.log(ar[i]);
+// }
 
 // Global Scope
 var name = "Bob";
